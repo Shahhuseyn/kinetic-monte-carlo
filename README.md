@@ -13,7 +13,7 @@ Implementation of Kinetic Monte Carlo (KMC) methods to simulate thermally activa
 
 ---
 
-## Task 2.1 — Atomistic KMC: Al Diffusion in Cu
+## Atomistic KMC: Al Diffusion in Cu
 
 Al atoms diffuse in a 25×25 nm² Cu/Cu-10%Al bilayer lattice via nearest-neighbor random walks. Jump rates follow an Arrhenius law with D₀ = 1.49×10⁻⁷ m²/s and activation energy Q = 137.1 kJ/mol. An ensemble of 10 independent runs is averaged to reduce stochastic noise.
 
@@ -47,7 +47,7 @@ Under a linear temperature ramp (298 K → 600 K) the effective diffusion length
 
 ---
 
-## Task 2.2 — Coarse-Grained 2D KMC: Al Diffusion at the Micron Scale
+## Coarse-Grained 2D KMC: Al Diffusion at the Micron Scale
 
 The atomistic model is upscaled to a 200×200 coarse grid covering a 20×20 µm² domain. Each supercell contains many atoms and jump rates are computed from the local Al fraction using the same Arrhenius expression.
 
@@ -66,7 +66,7 @@ The depth-averaged profile shows virtually no interface broadening at the micron
 
 ---
 
-## Task 2.3 — Au Diffusion in Si via the Kick-Out Mechanism
+## Au Diffusion in Si via the Kick-Out Mechanism
 
 Au diffusion in Si proceeds through a coupled three-species mechanism. Au interstitials (Au_i) entering from the surface displace Si lattice atoms via kick-out reactions, producing substitutional Au (Au_s) and Si self-interstitials (I). Parameters: k_f = 600 s⁻¹, k_b = 10 s⁻¹, D = 10⁻⁹ m²/s for both Au_i and I, on a 1×1 mm² Si wafer.
 
